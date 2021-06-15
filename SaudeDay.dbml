@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_saudeday" Class="SaudeDayDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-9T1JAF7;Initial Catalog=db_saudeday;Integrated Security=True" SettingsObjectName="SaudeDay.DAL.Properties.Settings" SettingsPropertyName="db_saudedayConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tb_remedio" Member="Remedioo">
+    <Type Name="Remedioo">
+      <Column Name="id_remedio" Member="Codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nome_remedio" Member="Remedio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="hora_marcada" Member="HoraMarcada" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="descricao" Member="Descricao" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="hora_tomou" Member="HoraTomou" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="quantidade" Member="Quantidade" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="medida" Member="Medida" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="data_marcada" Member="DataMarcada" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

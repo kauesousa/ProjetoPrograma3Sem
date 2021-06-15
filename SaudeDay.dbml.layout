@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SaudeDay">
+  <DataContextMoniker Name="/SaudeDayDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0956f730-91d0-4db8-a4f5-d89ea54fc332" absoluteBounds="3.375, 1.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SaudeDayDataContext/Remedioo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="10b87225-0431-47fa-8b01-f750a5c2f003" absoluteBounds="3.3899999999999997, 1.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
